@@ -1,3 +1,70 @@
-.hello {
-    color:red
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+
+html, body {
+    margin:0;
+    padding:0;
+    background-color: #659DBD;
+}
+
+body > * {
+    margin:20px;
+    font-family: 'Scada', sans-serif;
+}
+
+header {
+    margin:20px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FBEEC1;
+}
+
+#content {
+    display:flex;
+    flex-direction:row;
+
+}
+
+button { 
+    background-color: #DAAD86;
+    font-size: 20px;
+    color:black;
+    border-radius:10%;
+    transition:0.3s;
+    margin-bottom:2px;
+    font-family: 'Scada', sans-serif;
+}
+
+button:hover {
+    background-color: #FBEEC1;
+    transform:scale(1.1);
+}
+
+main {
+    margin-left: 20px;
+    width:100%;
+}
+
+section {
+    display:flex;
+    flex-direction:column;
+}
+
+.task {
+    outline: 2px solid black;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+}
+
+.task > * {
+    margin:5px;
+}
+.overview { 
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left:5px;
 }
